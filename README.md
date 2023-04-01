@@ -22,7 +22,6 @@ Caption Generator
 After all changes done run the Training.py file
 
 For testing 
-
 you can run with just : python testing.py 
 if you want to give any images :  python testing.py  --img_path #path for image
 
