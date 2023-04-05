@@ -8,14 +8,20 @@
 For Training first download the fliker8k dataset.
 
 After arrange the files like this
+
 Caption Generator
+
    -> Feature
+   
    -> Flicker_Text 
         # inside this folder put all the text files
+        
    -> Flicker8k_Dataset 
         # inside this folder put all images
+        
    -> Test images 
         # testing images
+        
    -> glove.6B.100d # glove embedding vector 
         # you want to download this file from stanford site glove embedding
 
@@ -26,9 +32,13 @@ you can run with just : python testing.py
 if you want to give any images :  python testing.py  --img_path #path for image
 
 arguments are 
+
   --model_path # Enter the path of the pretrained model
+  
   --img_path # 'Enter the path of image or images for testing
+  
   --v # Verbose ie True or False
 
 For Help in the testing file
+
 python testing.py --help
