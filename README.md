@@ -11,7 +11,7 @@ After arrange the files like this
 
 Caption Generator
 
-   -> Feature
+\t-> Feature
    
    -> Flicker_Text 
         # inside this folder put all the text files
