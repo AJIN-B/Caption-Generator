@@ -10,7 +10,9 @@ For Training first download the fliker8k dataset.
 After arrange the files like this
 
 Caption Generator
+
   -> Feature
+  
   -> Flicker_Text 
         # inside this folder put all the text files
         
