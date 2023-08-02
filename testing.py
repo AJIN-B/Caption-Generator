@@ -3,6 +3,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model, Model
 import pickle;import os;import numpy as np
+import argparse
 import cv2
 
 class Testing:
@@ -64,20 +65,23 @@ class Testing:
             self.display_image(self.arg.img_path)
             print('\nDescribing the image : ',sequence)
 
+def Arguments():
+    test_img = os.listdir('Test images/')
+    rand_cho = np.random.choice(test_img)
+    # Initialize the Parser
+    parser = argparse.ArgumentParser()
+    # Adding Arguments
+    parser.add_argument('-mp','--model_path',default = 'caption.h5', type = str,
+                        help ='Enter the path of the pretrained model')
+    parser.add_argument('-t','--img_path',default = 'Test images/'+rand_cho,nargs = '*',
+                        help ='Enter the path of image or images for testing') 
+    parser.add_argument('-v','--v',default = True,help ='Verbose ie True or False')
+      
+    args = parser.parse_args()
+    
+    return args
 
-import argparse
-test_img = os.listdir('Test images/')
-rand_cho = np.random.choice(test_img)
-# Initialize the Parser
-parser = argparse.ArgumentParser()
-# Adding Arguments
-parser.add_argument('-mp','--model_path',default = 'caption.h5', type = str,
-                    help ='Enter the path of the pretrained model')
-parser.add_argument('-t','--img_path',default = 'Test images/'+rand_cho,nargs = '*',
-                    help ='Enter the path of image or images for testing') 
-parser.add_argument('-v','--v',default = True,help ='Verbose ie True or False')
-  
-args = parser.parse_args()
-
-Testing(args)
+if __name__ == "__main__":
+    args = Arguments()
+    Testing(args)
 
