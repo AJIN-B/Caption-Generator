@@ -1,11 +1,12 @@
 # Caption-Gereator
-  In this project Flicker8k dataset was used to train the model for describing about the given image.Read images from dataset.
+
+      In this project Flicker8k dataset was used to train the model for describing about the given image.Read images from dataset.
   Preprocessing the text data with punctucation removed and lowercase the string.
   After for each sequence was encode and fed into the train model.
   For extracting the image feature Xception is used and for the sequence to train LSTM layer has been used and these two combine we get the model.
   After trained with the model the model is well perofmed with the test images to describing about the given image.
 
-For Training first download the fliker8k dataset.
+For Training first download the fliker8k dataset [link](https://www.kaggle.com/datasets/adityajn105/flickr8k)
 
 After arrange the files like this
 
