@@ -260,11 +260,14 @@ class Train_model:
         
         model.save(root_path+"\\"+path)
 
-#%%
 
-train = Train_model() 
-train.Training()  
 
-# train = Train_model() 
-# train.retrain_model('caption.h5')
 
+if __name__ == "__main__":
+
+    train = Train_model() 
+    train.Training()  
+    
+    # train = Train_model() 
+    # train.retrain_model('caption.h5')
+    
