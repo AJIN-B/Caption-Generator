@@ -20,32 +20,19 @@
 #### Folder Arrangement
 
 +-- Parent folder
-
-|   +-- Features 
-
-    |   +-- It contains the feature that are saved while training  
-     
-|   +-- Flicker_Text
-
-    |   +-- It contains the text data in the .txt files
-    
-|   +-- Flicker8k_Dataset
-
-    |   +-- It contains the images
-    
-|   +-- Test images
-
-    |   +-- It contains some samples to test the model 
-    
-|   +-- glove.6B.100d # glove embedding vector
-
-|   +-- caption.h5 # Trained model
-
-|   +-- Training.py # training file
-
-|   +-- Training_generator.py # training file using generator function
-
-|   +-- testing.py # to testing the model
++-- Features 
+|   +-- It contains the feature that are saved while training  
++-- Flicker_Text
+|   +-- It contains the text data in the .txt files
++-- Flicker8k_Dataset
+|   +-- It contains the images
++-- Test images
+|   +-- It contains some samples to test the model 
++-- glove.6B.100d # glove embedding vector
++-- caption.h5 # Trained model
++-- Training.py # training file
++-- Training_generator.py # training file using generator function
++-- testing.py # to testing the model
 
 
 
