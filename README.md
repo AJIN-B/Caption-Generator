@@ -15,7 +15,7 @@
 
 #### For download the fliker8k dataset [Download](https://www.kaggle.com/datasets/adityajn105/flickr8k) 
 
-#### For Download the glove.6B.100d from the stanford glove embedding vector [Download](https://nlp.stanford.edu/projects/glove/) you want to 
+#### For download the glove.6B.100d from the stanford glove embedding vector [Link](https://nlp.stanford.edu/projects/glove/)  
 
 #### Folder Arrangement
 
