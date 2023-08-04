@@ -19,7 +19,7 @@
 
 #### Folder Arrangement
 
-'''
+```
 +-- Parent folder
 +-- Features 
 |   +-- It contains the feature that are saved while training  
@@ -34,7 +34,7 @@
 +-- Training.py # training file
 +-- Training_generator.py # training file using generator function
 +-- testing.py # to testing the model
-'''
+```
 
 
 #### After all have been done run the Training.py file using
