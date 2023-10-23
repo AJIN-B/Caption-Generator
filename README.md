@@ -15,30 +15,39 @@ with the potential to benefit a broad range of users and industries.
 
 ---
 
-**Dataset Used:** Employed the Flickr8k dataset as the primary source of data for this project, which includes a diverse range of images and corresponding descriptions.
+### Dataset Used
+Employed the Flickr8k dataset as the primary source of data for this project, which includes a diverse range of images and corresponding descriptions.
 In this dataset consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events .[Download](https://www.kaggle.com/datasets/adityajn105/flickr8k)
 
-**Image Processing:**  The system processes input images using computer vision algorithms from the dataset.
+### Image Processing  
+The system processes input images using computer vision algorithms from the dataset.
 
-**Describtions Processing:**  The text Preprocessing contains tokenization ,removal of punctucation ,lowercase and unique value to every words.
+### Describtions Processing  
+The text Preprocessing contains tokenization ,removal of punctucation ,lowercase and unique value to every words.
 
-**Feature Extraction:**  Extract relevant features and attributes from the visual content using the **Xception Network**.This may include recognizing objects, colors, shapes, sizes, and spatial relationships.
+### Feature Extraction  
+Extract relevant features and attributes from the visual content using the **Xception Network**.This may include recognizing objects, colors, shapes, sizes, and spatial relationships.
 
-**NLP Model:**  Implement a natural language processing model, such as a neural network, that takes 
+### NLP Model  
+Implement a natural language processing model, such as a neural network, that takes 
 the extracted image features as input and generates descriptive text as output. The model was trained on image-text pairs.
 
-**Model Constrution:**  For extract image feature **Xception** has been used.
+### Model Constrution   
+For extract image feature **Xception** has been used.
 Then it has been fed into the **Dense** layer.The text vectors has been given into the **Embedding** layer for extract the textual context of the describtions.
 The **Embedding layer weights** has been replaced as **glove vectors embedding**.
 Then extracted image and text features has been fed into deep neural network **Long Short Term Memory (LSTM)** and a **fully connected Dense** layer with the activation **softmax function**.
 
-**Training:**  Then the model has been trained with 80% of train data.Total no of epochs is 100.**The model has been trained in GPU RTX 3050 using cuda libraries.**
+### Training   
+Then the model has been trained with 80% of train data.Total no of epochs is 100.**The model has been trained in GPU RTX 3050 using cuda libraries.**
 
-**Performance Evaluation:** Evaluated the model's performance with testing data, demonstrating its competence in accurately generating descriptive captions for images.
+### Performance Evaluation 
+Evaluated the model's performance with testing data, demonstrating its competence in accurately generating descriptive captions for images.
 
-**Technologies and Tools:** Deep Learning, Natural Language Processing, Computer Vision, TensorFlow, OpenCV, NLTK, LSTM
+### Technologies and Tools 
+Deep Learning, Natural Language Processing, Computer Vision, TensorFlow, OpenCV, NLTK, LSTM
 
-
+---
 #### For download the glove.6B.100d from the stanford glove embedding vector [Link](https://nlp.stanford.edu/projects/glove/)  
 
 #### Folder Arrangement
@@ -60,6 +69,7 @@ Then extracted image and text features has been fed into deep neural network **L
 +-- testing.py # to testing the model
 ```
 
+---
 
 #### After all have been done run the Training.py file using
 
@@ -90,6 +100,8 @@ or
 
 `python testing.py --help`
 
+---
+
 **Challenges:**
 - Ensuring the generated descriptions are accurate and coherent.
 - Handling images with complex scenes and a wide range of objects.
@@ -98,6 +110,7 @@ or
 **Benefits:**
 - Automation of image description for a variety of applications.
 
+---
 
 ## Installation 
 
