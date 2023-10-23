@@ -1,10 +1,9 @@
 # Caption-Gereator (Generating Image Describtions)
 
-###Constructed a sophisticated image caption generator using deep learning techniques to automatically describe images. 
-This project harnessed the potential of both natural language processing and computer vision to generate coherent and 
-contextually relevant captions for images.
+### Constructed a sophisticated image caption generator using deep learning techniques to automatically describe images.This project harnessed the potential of both natural language processing and computer vision to generate coherent and contextually relevant captions for images.
+---
 
-### Project Overview 
+## Project Overview 
 
 This project is focused on leveraging computer vision and natural 
 language processing (NLP) techniques to create a system capable of providing meaningful 
@@ -14,6 +13,7 @@ An Image Description project represents an exciting intersection of computer vis
 natural language processing, aiming to bridge the gap between visual and textual information,
 with the potential to benefit a broad range of users and industries.
 
+---
 
 **Dataset Used:** Employed the Flickr8k dataset as the primary source of data for this project, which includes a diverse range of images and corresponding descriptions.
 In this dataset consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events .[Download](https://www.kaggle.com/datasets/adityajn105/flickr8k)
