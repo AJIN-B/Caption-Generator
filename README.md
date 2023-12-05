@@ -73,11 +73,11 @@ Deep Learning, Natural Language Processing, Computer Vision, TensorFlow, OpenCV,
 
 #### After all have been done run the Training.py file using
 
-`python Training.py`
-
+```
+python Training.py
 or 
-
-`python Training_generator.py`
+python Training_generator.py
+```
 
 
 ### For testing 
@@ -116,11 +116,14 @@ or
 
 ### Basic Requirements:
 
-- __[Python 3.10](https://docs.python.org/3/)__
+- __[Python 3.8](https://docs.python.org/3/)__
 - __[Tensorflow](https://pypi.org/project/tensorflow/)__ 
 - __[Opencv-python](https://pypi.org/project/opencv-python/)__ 
 - __[Pandas](https://pandas.pydata.org/docs/)__
 - __[Numpy](https://numpy.org/doc/)__ 
+- __[NLTK](https://www.nltk.org/)__ 
+
+
 
 ### To install the basic Requirements
 

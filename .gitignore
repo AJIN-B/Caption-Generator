@@ -1,0 +1,14 @@
+
+# Environment folder
+venv
+.vs
+
+# Data Folder
+__pycache__
+Data
+#models/cnn.h5
+
+# files
+try.py
+refer.py
+requirements1.txt
